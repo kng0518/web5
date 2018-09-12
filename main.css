@@ -1,0 +1,175 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{
+  color: white;
+  text-decoration:none;}
+body{
+  width:1080px;
+  margin: auto;
+  background-color:#595656;
+}
+
+
+/* TopMenu */
+  #TopMenu{
+  }
+  #store{
+    color: red;
+  }
+  #logo{
+    width: 150px;
+    position:relative;
+    top:-15px;
+    right:-30px;
+      }
+  .topbox{
+    width:1080px;
+    height:70px;
+    background-color: black;
+  }
+  .menucontent a{
+    position:relative;
+    top:30px;
+    left:300px;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    margin-left:5px;
+    }
+
+
+/* MAINPOSTER */
+    #poster1{
+      width:1080px;
+      padding:0px;
+      margin:0px;
+    }
+
+
+/* EventNAV */
+  .navbox{
+    width:1080px;
+    height:60px;
+    background-color: black;
+    margin:0px;
+    padding:0px;
+    position:relative;
+    top:-5px;
+  }
+  .navtext{
+    color: white;
+    font-size: 1.6rem;
+    padding:18px;
+  }
+
+
+  layout{
+    color: white;
+  }
+
+   #section1{
+     display: flex;
+   }
+   #section2,{
+     display: flex;
+   }
+   #section3,{
+     display: flex;
+   }
+   .sns{
+     position: absolute;
+     top:1200px;
+     display:column;
+   }
+   .sns{
+      width: 300px;
+    padding:10px;
+
+   }
+
+
+/* section1 */
+    .notice,.patchNotes{
+      padding:10px;
+      width:120px;
+      height: 400px;
+      margin: 10px;
+      /* height: 500px; check2 */
+      /* padding:10px; */
+      background-color:#1a1512;
+      box-shadow: 5px 5px 5px black;
+
+    }
+    #teemo{
+      width: 120px;
+    }
+    {
+      padding:10px;
+    }
+
+
+/* section2 */
+    .Hotpost,.Fanart{
+      padding:10px;
+      width:500px;
+      height:320px;
+      margin: 10px;
+      background-color:#1a1512;
+      box-shadow: 5px 5px 5px black;
+
+      /* position: relative;
+      top:-420px;
+      right:-320px; */
+
+    }
+    .Hotpost{
+      display: flex;
+      flex-flow: column;
+
+
+    }
+    .Fanart{
+      /* float: right; */
+    }
+
+    #hot{
+      margin-top:10px;
+    }
+    .artpic{
+      width: 500px;
+    }
+    #fanpics{
+      margin-top: 30px;
+    }
+    #ar{
+      float:left;
+      /* position: relative;
+      top:-245px; right:-250px; */
+    }
+
+
+/* aside */
+  .aside{
+    padding:10;
+    width: 200px;
+    height:700px;
+    margin: 10px;
+    background-color:#1a1512;
+    box-shadow: 5px 5px 5px black;
+    /* position: relative;
+    right:-860px;
+    top:-1240px; */
+  }
+  .aside1,.aside2,.aside3
+  {
+    margin: 100px;
+  }
+  #aside2_img{
+    width: 200px;
+  }
+
+
+/* footer */
+  footer img{
+    width: 1080px;
+  }
